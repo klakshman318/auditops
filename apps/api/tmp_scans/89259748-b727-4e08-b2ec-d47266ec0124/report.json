@@ -1,0 +1,57 @@
+{
+  "summary": {
+    "total": 2,
+    "critical": 0,
+    "high": 2,
+    "medium": 0,
+    "low": 0
+  },
+  "findings": [
+    {
+      "id": "c44af7f5-7ec6-4b6e-848d-06be9cdeacfd",
+      "tool": "custom",
+      "ruleId": "CUSTOM-CORS-001",
+      "title": "Open CORS policy detected",
+      "severity": "HIGH",
+      "file": "vulnerable-demo/app.ts",
+      "line": 7,
+      "standards": [
+        "OWASP",
+        "SOC2 CC6",
+        "VAPT"
+      ],
+      "ai": {
+        "explanation": "AI explanation unavailable for this finding.",
+        "impact": "Manual review required.",
+        "fix": [
+          "Review the flagged code.",
+          "Apply secure remediation."
+        ],
+        "confidence": "LOW"
+      }
+    },
+    {
+      "id": "e6b4297e-961c-43e1-8a11-fc86055986fd",
+      "tool": "custom",
+      "ruleId": "CUSTOM-LOG-001",
+      "title": "Sensitive data may be logged",
+      "severity": "HIGH",
+      "file": "vulnerable-demo/app.ts",
+      "line": 4,
+      "standards": [
+        "OWASP A09",
+        "SOC2 CC6",
+        "VAPT"
+      ],
+      "ai": {
+        "explanation": "AI explanation unavailable for this finding.",
+        "impact": "Manual review required.",
+        "fix": [
+          "Review the flagged code.",
+          "Apply secure remediation."
+        ],
+        "confidence": "LOW"
+      }
+    }
+  ]
+}
